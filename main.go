@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"os"
+        "flag"
 )
 
 const (
@@ -11,8 +11,5 @@ const (
 )
 
 func main() {
-	arguments := os.Args
-	if len(arguments) == 1 {
-		fmt.Println("Please include seed to start using `tinystream`.")
-	}
 }
+
