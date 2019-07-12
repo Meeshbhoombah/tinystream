@@ -1,5 +1,6 @@
-# Vim
+# Project
 *.sw*
+todo.md
 
 # Mac
 .DS_Store
